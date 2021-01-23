@@ -43,10 +43,11 @@ export class Mesh {
     }
 
     setNeighbors() {
-
+        
     }
 
     getLineIds() : Uint16Array {
+
         // 3 edges per face, 2 indices per edge
         let count = this.faces.count() * 6;
         let data = new Uint16Array(count);
