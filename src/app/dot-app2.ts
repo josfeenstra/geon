@@ -8,7 +8,7 @@ import { Vector2, Vector3 } from "../math/vector";
 import { ImageRenderer } from "../render/image-renderer";
 import { RectangleRenderer } from "../render/rectangle-renderer";
 import { InputState } from "../system/input-state"
-import { App } from "../app/app"
+import { App } from "./app"
 import { DotRenderer2 } from "../render/dot-renderer2";
 
 export class DotApp2 extends App {
